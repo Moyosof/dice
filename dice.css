@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    margin: 10px ;
+    
+}
+
+p{
+    font-size: 2.5rem;
+
+}
+
+h4{
+    text-align: center;
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+}
+
+.Users{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.user1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 500px;
+}
