@@ -22,5 +22,8 @@ else{
     
     setMessage(document.querySelector('h4').textContent = "It's a draw")
 }
-
+document.getElementById('reloadButton').addEventListener('click', function() {
+    location.reload(); // Reloads the current page
+  });
+  
 
